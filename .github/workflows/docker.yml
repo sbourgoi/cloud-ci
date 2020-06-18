@@ -15,7 +15,7 @@ jobs:
       - name: Publish to Docker Hub Registry
         uses: elgohr/Publish-Docker-Github-Action@2.9
         with:
-          name: mediagrif/cloud-ci
+          name: mediagrifdevteam/cloud-ci
           username: ${{ secrets.docker_username }}
           password: ${{ secrets.docker_password }}
           tag_names: true
