@@ -1,6 +1,6 @@
 # Cloud CI Docker Image
 
-![](https://github.com/wperron/cloud-ci/workflows/Docker%20Image%20Build/badge.svg)
+![Docker Image Build](https://github.com/mediagrif/cloud-ci/workflows/Docker%20Image%20Build/badge.svg)
 
 Initially created to run the [terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks) in the context of a CI/CD Pipeline, this image contains a curated list of binaries and applications useful for deploying and maintaining cloud infrastructure.
 
