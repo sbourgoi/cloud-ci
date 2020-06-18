@@ -15,16 +15,16 @@ jobs:
       - name: Publish to Docker Hub Registry
         uses: elgohr/Publish-Docker-Github-Action@2.9
         with:
-          name: wperron/cloud-ci
-          username: wperron
+          name: mediagrif/cloud-ci
+          username: ${{ secrets.docker_username }}
           password: ${{ secrets.docker_password }}
           tag_names: true
           snapshot: true
       - name: Publish to GitHub Registry
         uses: elgohr/Publish-Docker-Github-Action@2.9
         with:
-          name: wperron/cloud-ci/cloud-ci
-          username: wperron
+          name: mediagrif/cloud-ci/cloud-ci
+          username: ${{ secrets.GITHUB_USERNAME }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           tag_names: true
