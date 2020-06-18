@@ -24,7 +24,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@2.9
         with:
           name: mediagrif/cloud-ci/cloud-ci
-          username: ${{ secrets.GITHUB_USERNAME }}
+          username: ${{ secrets.username }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           tag_names: true
