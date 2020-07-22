@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 RUN apt-get update -y && \
   apt-get install --no-install-recommends -y \
     ca-certificates=20190110ubuntu1 \
-    curl=7.68.0-1ubuntu2 \
+    curl=7.68.0-1ubuntu2.1 \
     zip=3.0-11build1 \
     unzip=6.0-25ubuntu1 \
     tar=1.30+dfsg-7 && \
